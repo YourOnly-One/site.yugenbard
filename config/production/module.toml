@@ -31,19 +31,19 @@ replacements = [
 [[imports]]
   path = "github.com/YourOnly-One/youronlyone-hugo-content"
   # BGN: /yugenbard/ content
-    #[[module.imports.mounts]]
+    #[[imports.mounts]]
     #  source = "yugenbard/eng-ph"
     #  target = "content"
     #  lang = "en"
-    [[module.imports.mounts]]
+    [[imports.mounts]]
       source = "yugenbard/eng-ph"
       target = "content"
       lang = "en-ph"
-    #[[module.imports.mounts]]
+    #[[imports.mounts]]
     #  source = "yugenbard/nihongo"
     #  target = "content"
     #  lang = "ja"
-    #[[module.imports.mounts]]
+    #[[imports.mounts]]
     #  source = "yugenbard/hangugeo"
     #  target = "content"
     #  lang = "ko"
