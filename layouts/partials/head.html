@@ -5,32 +5,6 @@
     {{- end }}
   <!-- END: YourOnly.One Head-01-Top -->
 
-  <!-- BGN: All sitemap and feed links -->
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap.index.xml" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap-multilang.xml" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/sitemap-general.xml" />
-
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/ko/feed.xml" hreflang="ko" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/ja/feed.xml" hreflang="ja" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/yuki/feed.xml" hreflang="en-PH" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/ko/sitemap.xml" hreflang="ko" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/ja/sitemap.xml" hreflang="ja" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/yuki/sitemap.xml" hreflang="en-PH" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/ko/index.json" hreflang="ko" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/ja/index.json" hreflang="ja" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/yuki/index.json" hreflang="en-PH" />
-
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/ko/feed.xml" hreflang="ko" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/ja/feed.xml" hreflang="ja" />
-    <link rel="alternate" type="application/atom+xml" href="https://YourOnly.One/snoworld/feed.xml" hreflang="en-PH" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/ko/sitemap.xml" hreflang="ko" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/ja/sitemap.xml" hreflang="ja" />
-    <link rel="sitemap" type="application/xml" href="https://YourOnly.One/snoworld/sitemap.xml" hreflang="en-PH" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/ko/index.json" hreflang="ko" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/ja/index.json" hreflang="ja" />
-    <link rel="alternate" type="application/json" href="https://YourOnly.One/snoworld/index.json" hreflang="en-PH" />
-  <!-- END: All sitemap and feed links -->
-
   <!-- BGN: Return to main page -->
     {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ .Site.BaseURL }}'" />{{ end }}
   <!-- END: Return to main page -->
