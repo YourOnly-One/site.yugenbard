@@ -38,7 +38,7 @@ jquerycdn = false
 		credittext = "YourOnly.One (https://youronly.one)"
 		dateFirstpublished = "2021-02-06"
 		#isblog = true
-		license = "https://youronly.one/p/legal-notice"/
+		license = "https://youronly.one/p/legal-notice/"
 		publisher = "https://yelosan.youronly.one/"
 		sameas = [
 			"https://fb.com/yugenbard",
