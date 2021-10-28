@@ -1,5 +1,5 @@
 ####### Base Config #######
-  baseURL = "https://im.youronly.one/yugenbard"
+  baseURL = "https://im.youronly.one/yugenbard/"
   title = "Yūgen Bard"
   copyright = ""                                          # we are using our own footer
   timeZone = "Asia/Manila"
