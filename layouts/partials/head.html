@@ -1,0 +1,58 @@
+<head>
+  <!-- BGN: YourOnly.One Head-01-Top -->
+    {{- if templates.Exists "partials/youronly.one-head-01-top.html" -}}
+      {{ partial "youronly.one-head-01-top.html" . }}
+    {{- end }}
+  <!-- END: YourOnly.One Head-01-Top -->
+
+  <!-- BGN: Return to main page -->
+    {{ if or .IsSection .IsPage }}<meta http-equiv="refresh" content="0; url='{{ .Site.BaseURL }}'" />{{ end }}
+  <!-- END: Return to main page -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ if .Site.Params.Author }}
+  <meta name="author" content="{{ .Site.Params.Author }}" />
+  {{ end }}
+  {{ if .Site.Params.Description }}
+  <meta
+    name="description"
+    content="{{ .Site.Params.Description }}"
+  />
+  {{ end }}
+  <title>{{ .Site.Title }}</title>
+
+  {{ $styles := resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") }}
+
+  {{ if .Site.IsServer }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
+  {{ else }}
+    {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
+  {{ end }}
+
+  <style>
+    @font-face {
+      font-family: "Bree Serif";
+      src: url("./BreeSerif-Regular.ttf") format("truetype");
+    }
+    .font-bree {
+      font-family: "Bree Serif", serif;
+    }
+    .hide {
+      display: none;
+    }
+    .active {
+      background-color: #4299e1;
+      color: white;
+    }
+    .active:hover {
+      color: white;
+    }
+  </style>
+
+  <!-- BGN: YourOnly.One Head-02-Bottom -->
+    {{- if templates.Exists "partials/youronly.one-head-02-btm.html" -}}
+      {{ partial "youronly.one-head-02-btm.html" . }}
+    {{- end }}
+  <!-- END: YourOnly.One Head-02-Bottom -->
+</head>
