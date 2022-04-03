@@ -1,4 +1,4 @@
-module yugenbard
+module gitlab.com/youronlyone/site.yugenbard
 
 go 1.18
 
