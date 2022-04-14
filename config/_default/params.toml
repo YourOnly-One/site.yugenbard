@@ -32,13 +32,14 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 	[semweb]
 		org = "yelosan"
 
+		#isni = ""
 		#issn = ""
-		acquirelicensepage = "https://youronly.one/p/legal-notice/"
+		acquirelicensepage = "https://im.youronly.one/p/legal-notice/"
 		copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
-		credittext = "YourOnly.One (https://youronly.one)"
+		credittext = "I'M YourOnly.One (https://im.youronly.one/)"
 		dateFirstpublished = "2021-02-06"
 		#isblog = true
-		license = "https://youronly.one/p/legal-notice/"
+		license = "https://im.youronly.one/p/legal-notice/"
 		publisher = "https://yelosan.youronly.one/"
 		sameas = [
 			"https://mastodon.social/@youronlyone",
@@ -47,6 +48,10 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 			"https://twitter.com/YourOnlyONEofcl",
 			"https://instagram.com/YourOnly.One",
 			"https://facebook.com/YourOnly.ONE.ofcl",
+			"https://www.pinterest.com/YourOnlyONEofcl",
+			"https://www.eyeem.com/u/YourOnlyOne",
+			"https://www.goodreads.com/youronlyone",
+			"https://vero.co/youronlyone",
 			"https://facebook.com/yugenbard"
 		]
 
