@@ -10,12 +10,12 @@
   "start_url": "https://im.youronly.one/yugenbard/",
   "icons": [
     {
-      "src": "https://rsc.YourOnly.One/favicon/yugenbard/android-chrome-192x192.png?fmgy=TimmieIsMySong",
+      "src": "{{ .Site.BaseURL }}favicon/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://rsc.YourOnly.One/favicon/yugenbard/android-chrome-512x512.png?fmgy=TimmieIsMySong",
+      "src": "{{ .Site.BaseURL }}favicon/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
