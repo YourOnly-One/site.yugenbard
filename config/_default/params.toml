@@ -6,7 +6,7 @@ jquerycdn = false
 websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
 
 ### BGN: Structured Data ###
-	description = "Yūgen Bard by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
+	description = "Yūgen Bard 🎻 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukia Sese Cuneta."
 	license = "https://im.youronly.one/p/legal-notice/"
 	keywords = ["Yugen Bard", "Yūgen Bard", "YourOnly.One", "Yuki", "ᜌᜓᜃᜒ"] # Can be overriden per page
 	images = ["https://rsc.youronly.one/img/y/Yūgen_Bard-logo-01-1500x.webp"]
