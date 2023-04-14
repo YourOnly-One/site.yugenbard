@@ -30,19 +30,19 @@ workspace = "off"
   path = "codeberg.org/youronlyone/content"
   # BGN: /yugenbard/ content
     #[[imports.mounts]]
-    #  source = "yugenbard/en-ph"
+    #  source = "content/yugenbard/en-ph"
     #  target = "content"
     #  lang = "en"
     [[imports.mounts]]
-      source = "yugenbard/en-ph"
+      source = "content/yugenbard/en-ph"
       target = "content"
       lang = "en-ph"
     #[[imports.mounts]]
-    #  source = "yugenbard/ja"
+    #  source = "content/yugenbard/ja"
     #  target = "content"
     #  lang = "ja"
     #[[imports.mounts]]
-    #  source = "yugenbard/ko"
+    #  source = "content/yugenbard/ko"
     #  target = "content"
     #  lang = "ko"
   # END: /yugenbard/ content
