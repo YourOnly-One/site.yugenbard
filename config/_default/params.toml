@@ -18,7 +18,7 @@ favicon_mstilecolor = "#b91d47"
   multipage = false
 
   # Dark mode
-  darkMode = false
+  darkMode = true
 ### END: Theme Settings ###
 
 ### BGN: Other Settings ###
