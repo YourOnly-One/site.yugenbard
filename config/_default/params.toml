@@ -25,11 +25,11 @@ favicon_mstilecolor = "#b91d47"
   [semweb]
     datecreated = "2021-02-06"
     sameas = [
-      "https://facebook.com/yugenbard",
+      "https://www.facebook.com/yugenbard",
       "https://c.im/@YourOnlyOne",
       "https://pixelfed.social/YourOnlyOne",
       "https://hashi.icu/@YourOnlyOne",
-      "https://youtube.com/@YourOnlyOneOfcl",
-      "https://facebook.com/YourOnly.ONE.ofcl"
+      "https://www.youtube.com/@YourOnlyOneOfcl",
+      "https://www.facebook.com/YourOnly.ONE.ofcl"
     ]
 ### END: Other Settings ###
