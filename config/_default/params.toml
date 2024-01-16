@@ -5,7 +5,7 @@ favicon_mstilecolor = "#b91d47"
 
 ### BGN: Structured Data ###
   description = "Yūgen Bard 🎻 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukiya Sese Cuneta."
-  keywords = ["Yugen Bard", "Yūgen Bard", "幽玄吟遊詩人", "음유시인", "幽 玄 음유 시인", "YourOnlyOne", "YourOnly.One", "Yahuhanan Yukiya Sese Cuneta", "Yuki", "YoHan", "Yo-Han", "ᜌᜓᜃᜒ", "사요한", "謝雪矢（ゆきや）", "스노", "Seu-No", "SeuNo", "Snow", "Yohanan", "ᜌᜓᜑᜈᜈ᜔", "ᜌᜓᜑᜈᜈ᜕", "ᜌᜑᜓᜑᜈᜈ᜔", "ᜌᜑᜓᜑᜈᜈ᜕"] # Can be overriden per page
+  keywords = ["Yugen Bard", "Yūgen Bard", "幽玄吟遊詩人", "음유시인", "幽 玄 음유 시인", "YourOnlyOne", "YourOnly.One", "Yahuhanan Yukiya Sese Cuneta", "Yuki", "YoHan", "Yo-Han",  "יהוחנן", "ᜌᜓᜃᜒ", "사요한", "謝雪矢（ゆきや）", "스노", "Seu-No", "SeuNo", "Snow", "Yohanan", "ᜌᜓᜑᜈᜈ᜔", "ᜌᜓᜑᜈᜈ᜕", "ᜌᜑᜓᜑᜈᜈ᜔", "ᜌᜑᜓᜑᜈᜈ᜕"] # Can be overriden per page
   images = ["https://rsc.youronly.one/img/y/Yugen_Bard-logo-01-1500x.webp"]
 ### END: Structured Data ###
 
