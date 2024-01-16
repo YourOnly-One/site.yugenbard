@@ -1,4 +1,4 @@
-images = ["https://rsc.youronly.one/img/y/Yūgen_Bard-logo-01-1500x.webp"]
+images = ["https://rsc.youronly.one/img/y/Yugen_Bard-logo-01-1500x.webp"]
   [_target]
     kind = "page"
     #lang = ""
