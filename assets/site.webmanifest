@@ -1,9 +1,9 @@
 {{- $androidchrome192png := resources.Get "favicon/android-chrome-192x192.png" | resources.Fingerprint "sha384" -}}
 {{- $androidchrome512png := resources.Get "favicon/android-chrome-512x512.png" | resources.Fingerprint "sha384" -}}
 {
-  "name": "Yūgen Bard 🎻",
-  "short_name": "Bard 🎻",
-  "description": "Yūgen Bard 🎻 by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukiya Sese Cuneta.",
+  "name": "Yūgen Bard",
+  "short_name": "Bard",
+  "description": "Yūgen Bard by ᜌᜓᜃᜒ (Yuki ・ 雪亮) / Yahuhanan Yukiya Sese Cuneta.",
   "id": "/yugenbard/",
   "dir": "auto",
   "lang": "en-PH",
