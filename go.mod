@@ -1,6 +1,6 @@
 module gitlab.com/youronlyone/site.yugenbard
 
-go 1.21
+go 1.22
 
 require (
   codeberg.org/yelosan/hugo-feeds main
